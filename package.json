@@ -97,6 +97,7 @@
   },
   "scripts": {
     "test": "grunt test",
+    "postinstall": "grunt build",
     "start": "node bin/server.js"
   },
   "keywords": [
