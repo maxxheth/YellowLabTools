@@ -16,7 +16,7 @@
     "yellowlabtools": "./bin/cli.js"
   },
   "engines": {
-    "node": ">= 4.0"
+    "node": ">=4.0 <9.0"
   },
   "main": "./lib/index.js",
   "dependencies": {
@@ -96,7 +96,8 @@
     "sinon-chai": "~2.14.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "start": "node bin/server.js"
   },
   "keywords": [
     "performance",
